@@ -7,38 +7,45 @@ using Vector3 = UnityEngine.Vector3;
 
 public class SceneCycler : MonoBehaviour
 {
+    // There are 3 tagged stages of player:
+    // UncheckedPlayer-    Has not been found by the script yet, placed in array if slot is empty, deleted if slot already occupied. 
+    // Player-             Active, was placed in "Player" GameObject array
+    // InactivePlayer-     Inactive, was placed in "Player" GameObject array
+    
     public GameObject[] Player = new GameObject[3];
     public string[] cycledScenes = new string [3];
 
+    // Remembers scene number, and which scene each Player array object occupies.
     public int sceneIteration;
     public int previousIteration;
     
-    private Image timerUI;
 
     // maxTime used in editor to place wait time amount,
     // currentTime sets bar size and determines time left.
     public float currentTime;
     private float maxTime;
-    private GameObject myself;
+    
+    // Slots
     public GameObject canvasObj;
     public GameObject uncheckedPlayer;
-
+    private Image timerUI;
+    
+    // Remembered player properties
     public Vector2[] playerLocation = new Vector2[3];
     public Vector2[] playerVelocity = new Vector2[3];
     public Rigidbody2D[] playerRb2d = new Rigidbody2D[3];
-    // Start is called before the first frame update
+
     void Awake()
     {
         maxTime = currentTime;
-        // Destroy self if there's already a scenecycler in place.
-        var findOther = GameObject.FindWithTag("SceneCycler");
-        if (findOther)
+        
+        // Destroy self if there's already a sceneCycler in place.
+        // Is given the tag "Untagged" in the beginning so it does not find itself.
+        if (GameObject.FindWithTag("SceneCycler"))
             Destroy(gameObject);
         else
-        {
-            myself = findOther;
             gameObject.tag = "SceneCycler";
-        }
+
         DontDestroyOnLoad(gameObject);
         timerUI = canvasObj.transform.GetChild(0).GetComponent<Image>();
         DontDestroyOnLoad(canvasObj);
@@ -61,9 +68,10 @@ public class SceneCycler : MonoBehaviour
         }
     }
     
-    // Find obj by "Player" tag, delete tagged obj "UncheckedPlayer" if found, give "UncheckedPlayer" the "Player" tag if none found.
+    // Find obj by "Player" tag, destroy if array space is occupied, fill array space if not occupied.
     IEnumerator FindPlayer()
     {
+        // Slight delay is given, or the object will fail to be found.
         yield return new WaitForSecondsRealtime(0.01f);
         uncheckedPlayer = GameObject.FindWithTag("UncheckedPlayer");
         if (uncheckedPlayer && Player[sceneIteration])
@@ -77,7 +85,8 @@ public class SceneCycler : MonoBehaviour
         }
     }
 
-    // Iterates current time downward by 0.01f, stops repeating and changes iteration upon time equaling or going below 0.
+    // Iterates current time downward by 0.01f.
+    // Upon time <= 0, it stops, changes scene iteration, and disables current player.
     IEnumerator TimerIteration()
     {
         // Cycle down if above/not equal to 0.

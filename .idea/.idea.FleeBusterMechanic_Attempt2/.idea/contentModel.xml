@@ -9,8 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="SceneCycler.cs" t="Include" />
           <e p="SimplePlayerController.cs" t="Include" />
-          <e p="SoundEffectObj.cs" t="Include" />
-          <e p="UITimer.cs" t="Include" />
+          <e p="UIText.cs" t="Include" />
         </e>
       </e>
       <e p="FleeBusterMechanic_Attempt2.sln" t="IncludeFlat" />
