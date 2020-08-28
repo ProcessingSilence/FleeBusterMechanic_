@@ -10,6 +10,7 @@ public class UIText : MonoBehaviour
     // Update is called once per frame
     void Awake()
     {
+        myText = GetComponent<Text>();
         StartCoroutine(TextChange());
     }
 

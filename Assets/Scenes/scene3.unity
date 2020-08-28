@@ -639,7 +639,7 @@ Transform:
   m_GameObject: {fileID: 1505300814}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.3, y: -0.3800001, z: 112.88853}
-  m_LocalScale: {x: 3.8496234, y: 0.48006, z: 0.48006}
+  m_LocalScale: {x: 1.972932, y: 0.48006, z: 0.48006}
   m_Children: []
   m_Father: {fileID: 228673851}
   m_RootOrder: 2
@@ -745,7 +745,7 @@ Transform:
   m_GameObject: {fileID: 1508194200}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.71800774, y: -2.8568258, z: 112.88853}
-  m_LocalScale: {x: 14.52195, y: 1, z: 1}
+  m_LocalScale: {x: 7.6240234, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 228673851}
   m_RootOrder: 0
@@ -794,13 +794,17 @@ MonoBehaviour:
     type: 3}
   uncheckedPlayer: {fileID: 0}
   playerLocation:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
   playerVelocity:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  playerRb2d:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &1980454414
 Transform:
   m_ObjectHideFlags: 0
@@ -916,7 +920,7 @@ Transform:
   m_GameObject: {fileID: 1997042369}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.59, y: -0.38, z: 112.88853}
-  m_LocalScale: {x: 3.8496234, y: 0.48006, z: 0.48006}
+  m_LocalScale: {x: 1.972932, y: 0.48006, z: 0.48006}
   m_Children: []
   m_Father: {fileID: 228673851}
   m_RootOrder: 1
