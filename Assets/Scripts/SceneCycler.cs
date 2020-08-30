@@ -12,12 +12,14 @@ public class SceneCycler : MonoBehaviour
     // Player-             Active, was placed in "Player" GameObject array
     // InactivePlayer-     Inactive, was placed in "Player" GameObject array
     
-    public GameObject[] Player = new GameObject[3];
+    private GameObject[] Player = new GameObject[3];
+    
+    // Requires placing scenes in Editor
     public string[] cycledScenes = new string [3];
 
     // Remembers scene number, and which scene each Player array object occupies.
-    public int sceneIteration;
-    public int previousIteration;
+    private int sceneIteration;
+    private int previousIteration;
     
 
     // maxTime used in editor to place wait time amount,
@@ -27,13 +29,13 @@ public class SceneCycler : MonoBehaviour
     
     // Slots
     public GameObject canvasObj;
-    public GameObject uncheckedPlayer;
+    private GameObject uncheckedPlayer;
     private Image timerUI;
     
     // Remembered player properties
-    public Vector2[] playerLocation = new Vector2[3];
-    public Vector2[] playerVelocity = new Vector2[3];
-    public Rigidbody2D[] playerRb2d = new Rigidbody2D[3];
+    private Vector2[] playerLocation = new Vector2[3];
+    private Vector2[] playerVelocity = new Vector2[3];
+    private Rigidbody2D[] playerRb2d = new Rigidbody2D[3];
 
     void Awake()
     {
