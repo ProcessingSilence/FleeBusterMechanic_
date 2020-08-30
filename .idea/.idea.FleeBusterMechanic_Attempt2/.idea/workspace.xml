@@ -9,50 +9,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneCycler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            <state relative-caret-position="1696">
+              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
               <folding>
-                <marker date="1598585525839" expanded="false" signature="6:172" ph="..." />
-                <marker date="1598585525839" expanded="true" signature="214:5139" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="221:546" ph="/* There are 3 tagged stages of player: ... */" />
-                <marker date="1598585525839" expanded="true" signature="813:924" ph="/* maxTime used in editor to place wait time amount, ... */" />
-                <marker date="1598585525839" expanded="true" signature="1323:1840" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="1378:1520" ph="/* Destroy self if there's already a sceneCycler in place. ... */" />
-                <marker date="1598585525839" expanded="true" signature="1898:2468" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="2195:2462" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="2605:3017" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="2862:2950" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="2963:3011" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="3023:3153" ph="/* Iterates current time downward by 0.01f. ... */" />
-                <marker date="1598585525839" expanded="true" signature="3186:4074" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="3272:3432" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="3585:4068" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="3688:3874" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="3891:4058" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="4109:4378" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="4419:4697" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="4730:4972" ph="{...}" />
-                <marker date="1598585525839" expanded="true" signature="4995:5137" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIText.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <marker date="1598584319454" expanded="true" signature="6:101" ph="..." />
-                <marker date="1598584319454" expanded="true" signature="137:621" ph="{...}" />
-                <marker date="1598584319454" expanded="true" signature="251:301" ph="{...}" />
-                <marker date="1598584319454" expanded="true" signature="331:619" ph="{...}" />
-                <marker date="1598584319454" expanded="true" signature="451:528" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="6:172" ph="..." />
+                <marker date="1598752882159" expanded="true" signature="214:5333" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="221:546" ph="/* There are 3 tagged stages of player: ... */" />
+                <marker date="1598752882159" expanded="true" signature="837:949" ph="/* maxTime used in editor to place wait time amount, ... */" />
+                <marker date="1598752882159" expanded="true" signature="1353:2030" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="1568:1710" ph="/* Destroy self if there's already a sceneCycler in place. ... */" />
+                <marker date="1598752882159" expanded="true" signature="2088:2659" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="2386:2653" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="2796:3208" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="3053:3141" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="3154:3202" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="3214:3344" ph="/* Iterates current time downward by 0.01f. ... */" />
+                <marker date="1598752882159" expanded="true" signature="3377:4268" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="3464:3625" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="3778:4262" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="3882:4068" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="4085:4252" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="4303:4572" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="4613:4891" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="4924:5166" ph="{...}" />
+                <marker date="1598752882159" expanded="true" signature="5189:5331" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,7 +54,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneCycler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIText.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -86,20 +69,10 @@
     <option name="height" value="1407" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -145,11 +118,13 @@
       <option name="presentableId" value="Default" />
       <updated>1598583112083</updated>
       <workItem from="1598583114780" duration="2392000" />
+      <workItem from="1598748547859" duration="697000" />
+      <workItem from="1598752341263" duration="537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2392000" />
+    <option name="totallyTimeSpent" value="3626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -161,23 +136,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24959481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -185,13 +151,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,46 +185,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIText.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1598584319454" expanded="true" signature="6:101" ph="..." />
-            <marker date="1598584319454" expanded="true" signature="137:621" ph="{...}" />
-            <marker date="1598584319454" expanded="true" signature="251:301" ph="{...}" />
-            <marker date="1598584319454" expanded="true" signature="331:619" ph="{...}" />
-            <marker date="1598584319454" expanded="true" signature="451:528" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIText.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneCycler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        <state relative-caret-position="1696">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
           <folding>
-            <marker date="1598585525839" expanded="false" signature="6:172" ph="..." />
-            <marker date="1598585525839" expanded="true" signature="214:5139" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="221:546" ph="/* There are 3 tagged stages of player: ... */" />
-            <marker date="1598585525839" expanded="true" signature="813:924" ph="/* maxTime used in editor to place wait time amount, ... */" />
-            <marker date="1598585525839" expanded="true" signature="1323:1840" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="1378:1520" ph="/* Destroy self if there's already a sceneCycler in place. ... */" />
-            <marker date="1598585525839" expanded="true" signature="1898:2468" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="2195:2462" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="2605:3017" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="2862:2950" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="2963:3011" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="3023:3153" ph="/* Iterates current time downward by 0.01f. ... */" />
-            <marker date="1598585525839" expanded="true" signature="3186:4074" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="3272:3432" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="3585:4068" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="3688:3874" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="3891:4058" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="4109:4378" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="4419:4697" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="4730:4972" ph="{...}" />
-            <marker date="1598585525839" expanded="true" signature="4995:5137" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="6:172" ph="..." />
+            <marker date="1598752882159" expanded="true" signature="214:5333" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="221:546" ph="/* There are 3 tagged stages of player: ... */" />
+            <marker date="1598752882159" expanded="true" signature="837:949" ph="/* maxTime used in editor to place wait time amount, ... */" />
+            <marker date="1598752882159" expanded="true" signature="1353:2030" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="1568:1710" ph="/* Destroy self if there's already a sceneCycler in place. ... */" />
+            <marker date="1598752882159" expanded="true" signature="2088:2659" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="2386:2653" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="2796:3208" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="3053:3141" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="3154:3202" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="3214:3344" ph="/* Iterates current time downward by 0.01f. ... */" />
+            <marker date="1598752882159" expanded="true" signature="3377:4268" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="3464:3625" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="3778:4262" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="3882:4068" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="4085:4252" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="4303:4572" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="4613:4891" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="4924:5166" ph="{...}" />
+            <marker date="1598752882159" expanded="true" signature="5189:5331" ph="{...}" />
           </folding>
         </state>
       </provider>

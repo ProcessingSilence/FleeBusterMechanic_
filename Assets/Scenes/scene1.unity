@@ -1011,31 +1011,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0ec4578c5315a943a8e8d2a69978746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   cycledScenes:
   - scene1
   - scene2
   - scene3
-  sceneIteration: 0
-  previousIteration: 0
-  currentTime: 3
+  timePerScene: 3
   canvasObj: {fileID: 642389444}
-  uncheckedPlayer: {fileID: 0}
-  playerLocation:
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  playerVelocity:
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  playerRb2d:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &1980454414
 Transform:
   m_ObjectHideFlags: 0

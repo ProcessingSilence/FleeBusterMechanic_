@@ -11,8 +11,7 @@ public class SceneCycler : MonoBehaviour
     // UncheckedPlayer-    Has not been found by the script yet, placed in array if slot is empty, deleted if slot already occupied. 
     // Player-             Active, was placed in "Player" GameObject array
     // InactivePlayer-     Inactive, was placed in "Player" GameObject array
-    
-    private GameObject[] Player = new GameObject[3];
+    private GameObject[] Player;
     
     // Requires placing scenes in Editor
     public string[] cycledScenes = new string [3];
@@ -23,8 +22,8 @@ public class SceneCycler : MonoBehaviour
     
 
     // maxTime used in editor to place wait time amount,
-    // currentTime sets bar size and determines time left.
-    public float currentTime;
+    // timePerScene sets bar size and determines time left.
+    public float timePerScene;
     private float maxTime;
     
     // Slots
@@ -39,7 +38,10 @@ public class SceneCycler : MonoBehaviour
 
     void Awake()
     {
-        maxTime = currentTime;
+        // The amount of players will depend on the amount of scenes in cycledScenes array.
+        Player = new GameObject[cycledScenes.Length];    
+        
+        maxTime = timePerScene;
         
         // Destroy self if there's already a sceneCycler in place.
         // Is given the tag "Untagged" in the beginning so it does not find itself.
@@ -58,7 +60,7 @@ public class SceneCycler : MonoBehaviour
     void Update()
     {
         // Fill amount of timer UI based on timer percentage.
-        timerUI.fillAmount = currentTime / maxTime;
+        timerUI.fillAmount = timePerScene / maxTime;
         
         // Change scene upon current scene being different than cycledScenes iterated scene, currentScene = new scene.
         if (sceneIteration != previousIteration)
@@ -92,17 +94,17 @@ public class SceneCycler : MonoBehaviour
     IEnumerator TimerIteration()
     {
         // Cycle down if above/not equal to 0.
-        if (!(currentTime <= 0))
+        if (!(timePerScene <= 0))
         {
             yield return new WaitForSecondsRealtime(0.01f);
-            currentTime -= 0.01f;
+            timePerScene -= 0.01f;
             StartCoroutine(TimerIteration());
         }
         
         // Restart time, set current scene player to inactive, add to scene iteration (restart iteration if it goes above length).
         else
         {
-            currentTime = maxTime;
+            timePerScene = maxTime;
             if (sceneIteration == cycledScenes.Length -1)
             {
                 DeactivatePlayer();
